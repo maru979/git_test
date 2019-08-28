@@ -8,10 +8,26 @@
     <title>Project_one</title>
 </head>
 <body>
-    <h1>Портфолио</h1>
+    <div class="header", style="text-align: center">
+        <h1>Портфолио</h1>
+    </div>
     <p>Добро пожаловать на страницу!</p><br>
-    <div>
-        <a>by @Maru979</a>
+    <div class="container">
+        <div style="text-align:center">
+          <h2>Обратная связь</h2>
+        </div>
+        <form action="/action_page.php">
+          <label for="uname">Имя</label><br>
+          <input type="text" id="u_name" name="user_name" placeholder="Ваше имя.."><br>
+          <label for="u_mail">Почта</label><br>
+          <input type="text" id="umail" name="user_mail" placeholder="Адрес вашей электронной почты.."><br>
+          <label for="subject">Текст обращения</label><br>
+          <textarea id="subject" name="subject" placeholder="" style="height:170px"></textarea><br>
+          <input type="submit" value="Отправить">
+        </form>
+    </div>
+    <div class="credits", style="text-align: center">
+      <p>by @Maru979</p>
     </div>  
 </body>
 </html>

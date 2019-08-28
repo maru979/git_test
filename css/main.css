@@ -5,9 +5,51 @@ body{
 
 p{
     color: bisque;
+    text-align: center;
 }
 
 h1{
     font-size: 30px;
     font-style: initial;
 }
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(49, 49, 49);
+    margin-top: 6px;
+    margin-bottom: 15px;
+    resize: vertical;
+    background-color: rgb(194, 188, 188);
+  }
+  
+  input[type=submit] {
+    background-color: rgb(95, 126, 96);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #49974d;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: #363535;
+    padding: 10px;
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+
+  
