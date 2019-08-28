@@ -13,11 +13,10 @@ h1{
     font-style: initial;
 }
 
-* {
+  {
     box-sizing: border-box;
   }
   
-  /* Style inputs */
   input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -42,7 +41,6 @@ h1{
     background-color: #49974d;
   }
   
-  /* Style the container/contact section */
   .container {
     border-radius: 5px;
     background-color: #363535;
@@ -50,6 +48,9 @@ h1{
     width: 50%;
     margin: 0 auto;
   }
-  
 
-  
+img{
+    width: 20px;
+    height: 20px;
+}
+
